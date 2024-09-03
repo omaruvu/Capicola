@@ -3,7 +3,7 @@ Game.updateGrimoire = false;
 Game.registerMod("Capicola", {
     init: function () {
 
-        let img = "img/C.png"
+        let img = "https://raw.githack.com/omaruvu/Capicola/main/C.png"
         Game.banned = 0;
 
         Game.registerHook('check', () => {
